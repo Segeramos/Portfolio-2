@@ -1,7 +1,7 @@
 import About from './Components/About';
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
-import Contact from './Components/contact';
+import Contact from './Components/Contact';
 import { FaTwitter, FaGithub, FaLinkedin, FaInstagram, FaBars, FaWhatsapp } from 'react-icons/fa'; // Import FaWhatsapp
 import { useState } from 'react';
 import React from 'react'; 
