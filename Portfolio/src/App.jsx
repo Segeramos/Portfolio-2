@@ -53,18 +53,17 @@ function App() {
             >
               Skills
             </a>
+                        <a
+              href="#CertificationPage"
+              className="text-white font-bold hover:text-cyan-400 hover:shadow-2xl hover:shadow-cyan-500/50 transition-all duration-300 ease-in-out transform hover:scale-105"
+            >
+              Certification
+            </a>
             <a
               href="#contact"
               className="text-white font-bold hover:text-cyan-400 hover:shadow-2xl hover:shadow-cyan-500/50 transition-all duration-300 ease-in-out transform hover:scale-105"
             >
               Contact
-            </a>
-
-            <a
-              href="#CertificationPage"
-              className="text-white font-bold hover:text-cyan-400 hover:shadow-2xl hover:shadow-cyan-500/50 transition-all duration-300 ease-in-out transform hover:scale-105"
-            >
-              Certification
             </a>
             
           </div>
@@ -86,8 +85,8 @@ function App() {
         <a href="#about" className="block px-4 py-2 hover:bg-cyan-700" onClick={closeMenu}>About</a>
         <a href="#projects" className="block px-4 py-2 hover:bg-cyan-700" onClick={closeMenu}>Projects</a>
         <a href="#skills" className="block px-4 py-2 hover:bg-cyan-700" onClick={closeMenu}>Skills</a>
-        <a href="#contact" className="block px-4 py-2 hover:bg-cyan-700" onClick={closeMenu}>Contact</a>
         <a href="#certification" className="block px-4 py-2 hover:bg-cyan-700" onClick={closeMenu}>Certification</a>
+        <a href="#contact" className="block px-4 py-2 hover:bg-cyan-700" onClick={closeMenu}>Contact</a>
       </div>
 
       <main className="pt-16">
