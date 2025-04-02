@@ -2,6 +2,7 @@ import About from './Components/About';
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 import Contact from './Components/Contact';
+import Certification from './Components/Certification';
 import { FaTwitter, FaGithub, FaLinkedin, FaInstagram, FaBars, FaWhatsapp } from 'react-icons/fa'; // Import FaWhatsapp
 import { useState } from 'react';
 import React from 'react'; 
@@ -58,6 +59,14 @@ function App() {
             >
               Contact
             </a>
+
+            <a
+              href="#CertificationPage"
+              className="text-white font-bold hover:text-cyan-400 hover:shadow-2xl hover:shadow-cyan-500/50 transition-all duration-300 ease-in-out transform hover:scale-105"
+            >
+              Certification
+            </a>
+            
           </div>
         </div>
       </nav>
@@ -78,6 +87,7 @@ function App() {
         <a href="#projects" className="block px-4 py-2 hover:bg-cyan-700" onClick={closeMenu}>Projects</a>
         <a href="#skills" className="block px-4 py-2 hover:bg-cyan-700" onClick={closeMenu}>Skills</a>
         <a href="#contact" className="block px-4 py-2 hover:bg-cyan-700" onClick={closeMenu}>Contact</a>
+        <a href="#certification" className="block px-4 py-2 hover:bg-cyan-700" onClick={closeMenu}>Certification</a>
       </div>
 
       <main className="pt-16">
@@ -85,6 +95,7 @@ function App() {
         <Projects />
         <Skills />
         <Contact />
+        <Certification />
       </main>
 
       <footer className="bg-black text-white py-4 text-center">
@@ -116,3 +127,5 @@ function App() {
 }
 
 export default App;
+
+
