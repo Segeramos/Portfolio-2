@@ -3,18 +3,20 @@ import React from 'react';  // Add this import
 
 function Projects() {
     const projectsData = [
-        {
-          title: "Project 1",
-          description: "Description for Project 1",
-          technologies: ["React", "JavaScript", "CSS"],
-          link: "#"
-        },
-        {
-          title: "Project 2",
-          description: "Description for Project 2",
-          technologies: ["Node.js", "Express", "MongoDB"],
-          link: "#"
-        },
+      {
+        title: "SavorSphere",
+        description: "Description for Project 1",
+        technologies: ["React", "JavaScript", "CSS"],
+        link: "https://segeramos-savorsphere.web.val.run/",
+        landingPageImage: "Portfolio\src\assets\photos\SS.png" // Add the image path here
+      },
+      {
+        title: "Project 1",
+        description: "Description for Project 1",
+        technologies: ["React", "JavaScript", "CSS"],
+        link: "#",
+        landingPageImage: "path/to/landing-page-image.jpg" // Add the image path here
+      },
         // Add more projects as needed
       ];
 
