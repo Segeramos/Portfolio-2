@@ -29,7 +29,7 @@ function Contact() {
                 setMessage('');
             },
             (error) => {
-                setError('Failed to send message. Please try again later.');
+                setError('Failed to send message. Check Your Network.');
             }
         )
         .finally(() => {
