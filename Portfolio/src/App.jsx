@@ -93,8 +93,9 @@ function App() {
         <About />
         <Projects />
         <Skills />
-        <Contact />
         <Certification />
+        <Contact />
+        
       </main>
 
       <footer className="bg-black text-white py-4 text-center">
