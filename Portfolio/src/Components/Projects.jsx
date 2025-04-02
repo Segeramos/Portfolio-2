@@ -10,11 +10,19 @@ function Projects() {
       landingPageImage: "/SS.png" // Correct path format
     },
     {
-      title: "Project 1",
+      title: "Movie Explorer",
       description: "Description for Project 1",
       technologies: ["React", "JavaScript", "CSS"],
-      link: "#",
-      landingPageImage: "path/to/landing-page-image.jpg"
+      link: "https://capstone-project-2-88dc.vercel.app/",
+      landingPageImage: "/ME.png"
+    },
+
+    {
+      title: "Music App",
+      description: "Description for Project 1",
+      technologies: ["React", "JavaScript", "CSS"],
+      link: "https://segeramos-musicwebsiteapp.web.val.run/",
+      landingPageImage: "/MA.png"
     }
     // Add more projects as needed
   ];
@@ -33,7 +41,7 @@ function Projects() {
               <img 
                 src={project.landingPageImage} 
                 alt={`Image for ${project.title}`} 
-                className="w-full h-48 object-cover mb-4 rounded-md"
+                className="w-full h-80 object-cover mb-4 rounded-md"
               />
               <p className="text-gray-600 mb-4">{project.description}</p>
               <div className="flex flex-wrap gap-2 mb-4">
