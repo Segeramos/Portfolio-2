@@ -98,7 +98,7 @@ function App() {
             <a href="https://github.com/Segeramos" target="_blank" rel="noopener noreferrer">
               <FaGithub size={30} className="text-white-800 hover:text-gray-900" />
             </a>
-            <a href="https://www.linkedin.com/in/amos-segera-57a13a25b/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/amos-segera-57a13a25b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
               <FaLinkedin size={30} className="text-blue-700 hover:text-blue-800" />
             </a>
             <a href="https://www.instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
