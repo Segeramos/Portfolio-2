@@ -20,7 +20,7 @@ function About() {
           <h2 className="text-4xl text-cyan-300 font-bold mb-4">About Segera Amos</h2>
           <p className="text-cyan-200 mb-4">
           I'm a talented front-end developer with a knack for creating visually appealing and user-friendly websites. Specializing in HTML, CSS, JavaScript, and frameworks like React and Angular, I blend design and functionality to craft seamless digital experiences. 
-          With a focus on responsiveness, accessibility, and performance, he ensures every project delivers smooth usability across all devices. Constantly learning and staying up-to-date with the latest trends, I i'm dedicated to pushing the boundaries of web development. 
+          With a focus on responsiveness, accessibility, and performance, I ensures every project delivers smooth usability across all devices. Constantly learning and staying up-to-date with the latest trends, I'm dedicated to pushing the boundaries of web development. 
           For anyone seeking both creativity and technical expertise, I'm a standout in the field.
           </p>
           <a 
