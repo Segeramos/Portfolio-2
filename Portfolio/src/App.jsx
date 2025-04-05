@@ -109,14 +109,14 @@ function App() {
           </button>
           {isJourneyOpen && (
             <div className="pl-4">
-              <a href="#SubItem1" className="block px-4 py-2 hover:bg-cyan-500" onClick={closeMenu}>
-                SubItem 1
+              <a href="#Certification" className="block px-4 py-2 hover:bg-cyan-500" onClick={closeMenu}>
+                Certification
               </a>
-              <a href="#SubItem2" className="block px-4 py-2 hover:bg-cyan-500" onClick={closeMenu}>
-                SubItem 2
+              <a href="#Education Background" className="block px-4 py-2 hover:bg-cyan-500 " onClick={closeMenu}>
+              Education Background
               </a>
-              <a href="#SubItem3" className="block px-4 py-2 hover:bg-cyan-500" onClick={closeMenu}>
-                SubItem 3
+              <a href="#Professional Background" className="block px-4 py-2 hover:bg-cyan-500" onClick={closeMenu}>
+              Professional Background
               </a>
             </div>
           )}

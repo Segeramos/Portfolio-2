@@ -79,7 +79,7 @@ const educationData = [
   {
     degree: "Bachelor of Science in Information Technology",
     institution: <a href="https://cuk.ac.ke/" target="_blank" rel="noopener noreferrer">Cooperative University of Kenya</a>,
-    graduationYear: "2021-2026",
+    graduationYear: "2021- Present",
   },
 ];
 
@@ -88,7 +88,7 @@ const professionalHistoryData = [
     jobTitle: "Digital marketer",
     company: <a href="https://rondamo.co.ke/" target="_blank" rel="noopener noreferrer">Rondamo Technologies</a>,
     duration: "May 2023 - Present",
-    description: "Building and maintaining modern web applications using React and JavaScript.",
+    description: " Driving brand growth through online strategies like SEO, content marketing, and social media. By leveraging data and analytics, they craft targeted campaigns that engage audiences and boost sales..",
   },
  
 ];
